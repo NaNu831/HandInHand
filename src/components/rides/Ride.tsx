@@ -1,9 +1,9 @@
 import { Box, Card, CardContent, Typography } from "@mui/material";
 import React from "react";
-import { Ride } from "./types";
+import { Ride as RideType } from "./types";
 
 type RideProps = {
-  ride: Ride;
+  ride: RideType;
 };
 
 const Ride = (props: RideProps) => {
