@@ -45,7 +45,7 @@ const Home = () => {
             backgroundColor: "white",
             direction: "column",
             alignItems: "flex-start",
-            padding: "p2",
+            p: 2,
           }}
         >
           <MenuList />

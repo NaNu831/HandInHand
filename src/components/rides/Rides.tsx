@@ -16,7 +16,7 @@ const Rides = (props: RidesProps) => {
         {rides.map((ride) => (
           <Grid
             sx={{
-              padding: "p2",
+              p: "2",
             }}
             item
             key={ride.identifier.sequence + "/" + ride.identifier.year}
