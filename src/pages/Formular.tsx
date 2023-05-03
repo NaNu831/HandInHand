@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Formular = () => {
   return (
     <Container sx={{ background: "white", p: 2 }}>
-      <h2>Neue Fahrt anlegen</h2>
+      <h2>Neue Fahrt anlegen </h2>
       <Grid container spacing={2}>
         <Grid item xs={3}>
           Fahrt Nr.:
